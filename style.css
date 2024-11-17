@@ -90,9 +90,14 @@ nav button {
 }
 
 .btn {
+   /* font-family: 'Martel Sans', sans-serif;*/
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    color: white;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius:4px ;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .btn-red {
@@ -103,6 +108,13 @@ nav button {
     padding: 3px 24px;
     font-size: 20px;
     border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    
 }
 
 .hero-buttons {
@@ -122,7 +134,3 @@ nav button {
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.btn-red-sm {
-    background-color: red;
-    color: white;
-}
