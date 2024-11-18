@@ -126,6 +126,15 @@ nav button {
     gap: 16px;
 }
 
+@media screen and (max-width: 750px){
+    .hero-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+}
+
 .main input {
     padding: 7px 101px 8px 14px;
     color: white;
@@ -176,7 +185,7 @@ nav button {
 .secImg img {
     width: 555px; ;
     /*padding: 100PX 20px 50px 20px;*/
-    padding: 20PX 100px 20px 100px;
+    padding: 20PX 100px 5x 100px;
     z-index: 10;
     position: relative;
 }
@@ -184,7 +193,7 @@ nav button {
 @media screen and (max-width: 750px){
     .secImg img {
         width: 450px; ;
-        padding: 20PX 100px 20px 100px;
+        padding: 20PX 100px 5px 100px;
         z-index: 10;
         position: relative;
     }
@@ -193,7 +202,7 @@ nav button {
 section.first > div{
     display: flex;
     flex-direction: column;
-    padding: 34px 0;
+    padding: 50px 0;
 }
 
 .first > div:first-child{
