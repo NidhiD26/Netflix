@@ -136,6 +136,18 @@ nav button {
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
+@media screen and (max-width: 750px){
+    .main input {
+        padding: 7px 101px 8px 14px;
+        color: white;
+        font-weight: 900;
+        font-size: 12px;
+        border-radius: 4px;
+        background-color: rgba(24, 24, 24, 0.7);
+        border: 1px solid rgba(246, 238, 238, 0.5);
+    }
+}
+
 .first {
     display: flex;
     justify-content: center;
