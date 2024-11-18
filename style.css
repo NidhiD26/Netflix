@@ -172,13 +172,7 @@ nav button {
 @media screen and (max-width: 750px){
     .first{
         flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        max-width: 70vw;
-        margin: auto;
-        color: white;
-        justify-content: center;
-        align-items: center;
+        
     }
 }
 
