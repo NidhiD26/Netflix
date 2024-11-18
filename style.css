@@ -147,15 +147,28 @@ nav button {
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
     .first{
         flex-wrap: wrap;
     }
 }
 
+
 .secImg img {
-    padding: 100PX 20px 50px 20px;
-    width: 30vw;
+    width: 555px; ;
+    /*padding: 100PX 20px 50px 20px;*/
+    padding: 20PX 100px 20px 100px;
+    z-index: 10;
+    position: relative;
+}
+
+@media screen and (max-width: 750px){
+    .secImg img {
+        width: 450px; ;
+        padding: 20PX 100px 20px 100px;
+        z-index: 10;
+        position: relative;
+    }
 }
 
 section.first > div{
@@ -229,6 +242,14 @@ footer .questions{
     color: white;
 }
 
+@media screen and (max-width: 1300px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color: white;
+    }
+}
+
 .footer a{
     font-size: 14px;
     text-decoration: none;
@@ -240,3 +261,4 @@ footer .questions{
     flex-direction: column;
     gap: 23px;
 }
+
