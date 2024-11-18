@@ -150,6 +150,13 @@ nav button {
 @media screen and (max-width: 750px){
     .first{
         flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        max-width: 70vw;
+        margin: auto;
+        color: white;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -180,6 +187,7 @@ section.first > div{
 .first > div:first-child{
     font-size: 48px;
     font-weight: bolder;
+    padding: 100px 0px;
 }
 
 .first > div :nth-child(2){
